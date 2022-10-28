@@ -1,26 +1,27 @@
 ---
-description: 'Misskeyのロゴ、アイコンなどのアセットのコレクションです。'
+description: 'collection of Misskey logos, icons, and other assets.'
 ---
 
-# アセット集
-Misskeyのロゴ、アイコンなどのアセットのコレクションです。
+# Assets collection
+This is a collection of Misskey logos, icons, and other assets.
+
 
 ::: tip
-アセットは、**CC BY-NC-SA**のライセンスの下で自由にお使いいただけます🎉
+These assets are free to use under the **CC BY-NC-SA** license!🎉
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="CC BY-NC-SA" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 :::
 
 ::: tip
-全てのアセットは、[misskey-dev/assets](https://github.com/misskey-dev/assets)で管理されています。
+All assets are managed in [misskey-dev/assets](https://github.com/misskey-dev/assets).
 :::
 
-## ロゴ
+## Logo
 <a class="asset" href="https://raw.githubusercontent.com/misskey-dev/assets/main/misskey.svg" target="_blank" download>
 <img src="https://raw.githubusercontent.com/misskey-dev/assets/main/misskey.svg">
 </a>
 
-## アイコン
+## Icon
 <a class="asset" href="https://raw.githubusercontent.com/misskey-dev/assets/main/icon.png" target="_blank" download>
 <img src="https://raw.githubusercontent.com/misskey-dev/assets/main/icon.png">
 </a>
@@ -48,3 +49,7 @@ Misskeyのロゴ、アイコンなどのアセットのコレクションです�
   100% {background-position: 12.5px 12.5px, 25px 12.5px, 25px 0px, 12.5px 25px;}
 }
 </style>
+
+
+
+
