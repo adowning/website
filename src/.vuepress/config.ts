@@ -48,97 +48,97 @@ export default defineUserConfig<DefaultThemeOptions>({
 		logo: 'https://raw.githubusercontent.com/misskey-dev/assets/main/favicon.png',
 		locales: {
 			'/': {
-				selectLanguageName: '日本語',
-				contributorsText: '編集者',
-				lastUpdatedText: '編集日時',
-				editLinkText: 'ページを編集',
-				relatedPagesText: '関連するページ',
-				readThisArticle: 'この記事を読む',
+				selectLanguageName: 'English',
+				contributorsText: 'Contributors',
+				lastUpdatedText: 'Last Updated',
+				editLinkText: 'Edit this page',
+				relatedPagesText: 'Related pages',
+				readThisArticle: 'Read this article',
 				navbar: [{
-					text: 'ブログ',
-					link: '/blog/',
+					text: 'Blog',
+					link: '/en/blog/',
 				}, {
-					text: 'お楽しみ',
+					text: 'Taking part',
 					children: [
-						'/instances',
-						'/plugins/',
-						'/appendix/assets'
+						'/en/instances',
+						'/en/plugins/',
+						'/en/appendix/assets'
 					]
 				}, {
-					text: 'ドキュメント',
+					text: 'Documentation',
 					children: [
-						'/docs/misskey',
-						'/docs/releases',
-						'/docs/misskey-hub',
-						'/docs/faq',
-						'/docs/glossary',
-						'/docs/troubleshooting',
+						'/en/docs/misskey',
+						'/en/docs/releases',
+						'/en/docs/misskey-hub',
+						'/en/docs/faq',
+						'/en/docs/glossary',
+						'/en/docs/troubleshooting',
 						{
-							text: '機能',
+							text: 'Features',
 							children: [
-								'/docs/features/note',
-								'/docs/features/reaction',
-								'/docs/features/mfm',
-								'/docs/features/custom-emoji',
-								'/docs/features/drive',
-								'/docs/features/charts',
-								'/docs/features/online-status',
-								'/docs/features/share-form',
-								'/docs/features/thread-mute',
-								'/docs/features/word-mute',
-								'/docs/features/mute-and-block',
-								'/docs/features/plugin',
+								'/en/docs/features/note',
+								'/en/docs/features/reaction',
+								'/en/docs/features/mfm',
+								'/en/docs/features/custom-emoji',
+								'/en/docs/features/drive',
+								'/en/docs/features/online-status',
+								'/en/docs/features/share-form',
+								'/en/docs/features/thread-mute',
+								'/en/docs/features/word-mute',
+								'/en/docs/features/mute-and-block',
+								'/en/docs/features/plugin',
 							]
 						},
 						{
-							text: '開発者',
+							text: 'for Developers',
 							children: [
-								'/docs/api',
-								'/docs/api/streaming',
-								'/docs/api/endpoints.html',
-								'/docs/features/webhook',
+								'/en/docs/api',
+								'/en/docs/api/streaming',
+								'/en/docs/api/endpoints.html',
 							]
 						},
 						{
-							text: '運営者向け',
+							text: 'for Admins',
 							children: [
-								'/docs/install',
-								'/docs/admin/cdn',
-								'/docs/admin/nginx',
-								'/docs/admin/push-docker-hub',
-								'/docs/admin/troubleshooting',
-								'/docs/tips/disable-timelines',
+								'/en/docs/install',
+								'/en/docs/admin/emoji',
+								'/en/docs/admin/cdn',
+								'/en/docs/admin/nginx',
+								'/en/docs/admin/push-docker-hub',
+								'/en/docs/admin/troubleshooting',
+								'/en/docs/tips/disable-timelines',
+								'/en/docs/admin/default-reaction',
 							]
 						}
 					]
 				}, {
-					text: 'リンク',
+					text: 'Links',
 					children: [
 						{
-							text: '公式Discord',
+							text: 'Official Discord',
 							link: 'https://discord.gg/Wp8gVStHW3',
 						},
 						{
-							text: '寄付 (Patreon)',
+							text: 'Donations (Patreon)',
 							link: 'https://www.patreon.com/syuilo',
 						},
 						{
-							text: '翻訳 (Crowdin)',
+							text: 'Translation (Crowdin)',
 							link: 'https://crowdin.com/project/misskey',
 						},
 						{
-							text: '藍.moe',
+							text: '藍.moe (Mascot art site)',
 							link: 'https://xn--931a.moe',
 						},
 						{
-							text: 'アカウント',
+							text: 'Accounts',
 							children: [{
 								text: '@repo@misskey.io',
 								link: 'https://misskey.io/@repo',
 							}]
 						},
 						{
-							text: 'リポジトリ',
+							text: 'Repository',
 							children: [{
 								text: 'misskey',
 								link: 'https://github.com/misskey-dev/misskey',

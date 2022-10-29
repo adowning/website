@@ -234,15 +234,15 @@ case "$yn" in
 				echo "Make sure that Cloudflare DNS is configured and is in proxy mode.";
 				echo "";
 				echo "Enter Email address you registered to Cloudflare:";
-				read -r -p "> " cf_mail;
+				# read -r -p "> " cf_mail;
 				echo "Open https://dash.cloudflare.com/profile/api-tokens to get Global API Key and enter here it.";
 				echo "Cloudflare API Key: ";
-				read -r -p "> " cf_key;
+				# read -r -p "> " cf_key;
 
 				mkdir -p /etc/cloudflare;
 				cat > /etc/cloudflare/cloudflare.ini <<-_EOF
-				dns_cloudflare_email = $cf_mail
-				dns_cloudflare_api_key = $cf_key
+				dns_cloudflare_email = ashdowning@gmail.com
+				dns_cloudflare_api_key = BMySu19Xb0vf-uT-AwwTIuIZ9Q9KTilbl57V7GLQ
 				_EOF
 
 				chmod 600 /etc/cloudflare/cloudflare.ini;
